@@ -63,16 +63,13 @@ end
     end
   end
 
-  def sell_pets
-    self.cats.each do |temp|
-      temp.mood = "nervous"
-      temp.owner = nil
-    end
-    self.dogs.each do |temp|
-      temp.mood = "nervous"
-      temp.owner = nil
-    end
+def sell_pets
+  owner_pets = self.dogs + self.cats
+  owner_pets.each do |temp|
+    temp.mood = "nervous"
+    temp.owner = nil
   end
+end
 
 def list_pets
   number_of_dogs = dogs.length

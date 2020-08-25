@@ -48,7 +48,9 @@ def buy_dog (dog_name)
 end
 
 def walk_dogs
-  Dog.mood = "happy"
+  owner_dogs = dogs
+  dogs.each do |temp|
+    temp.mood = "happy"
 end
 
 

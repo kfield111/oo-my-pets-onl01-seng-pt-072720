@@ -8,5 +8,5 @@ class Cat
     @mood = mood
 
 
-    
+
 end

@@ -67,7 +67,7 @@ def sell_pets
   owner_pets = dogs + cats
   owner_pets.select do |temp|
     temp.mood = "nervous"
-    temp.owner = 
+    temp.owner = nil
   end
 end
 

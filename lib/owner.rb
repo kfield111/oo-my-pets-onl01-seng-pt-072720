@@ -69,7 +69,7 @@ def sell_pets
     temp.mood = "nervous"
     temp.owner = nil
   end
-  owner_pets
+  owner_pets.clear
     binding.pry
 end
 

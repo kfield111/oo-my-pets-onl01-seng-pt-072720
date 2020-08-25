@@ -65,7 +65,6 @@ end
 
 def sell_pets
   owner_pets = dogs + cats
-    binding.pry
   owner_pets.each do |temp|
     temp.mood = "nervous"
     temp.owner = nil

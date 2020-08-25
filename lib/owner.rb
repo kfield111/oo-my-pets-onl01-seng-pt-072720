@@ -62,6 +62,10 @@ end
   end
 
 def sell_pets
+  owner_pets = dogs + cats
+  .each do |temp|
+    temp.mood = "happy"
+  end
 
 end
 

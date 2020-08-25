@@ -10,6 +10,8 @@ class Cat
     @owner = owner
     @mood = mood
 
-
+def self.all
+  @@all
+end
 
 end

@@ -74,6 +74,7 @@ end
 def list_pets
   number_of_dogs = dogs.length
   number_of_cats = cats.length
+  binding.pry
   puts "I have #{number_of_dogs} dog(s), and #{number_of_cats} cat(s)."
 end
 

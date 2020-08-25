@@ -33,6 +33,11 @@ end
 
 def cats
   Cats.all.select {|temp| temp.owner = owner}
+end
+
+def cats
+  Dogs.all.select {|temp| temp.owner = owner}
+end
 
 
 end

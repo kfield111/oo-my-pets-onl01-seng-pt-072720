@@ -70,6 +70,7 @@ def sell_pets
     temp.owner = nil
   end
   owner_pets
+    binding.pry
 end
 
 

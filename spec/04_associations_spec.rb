@@ -4,6 +4,7 @@ describe "Associations" do
   before do
     @owner = Owner.new("Timmy")
     Cat.all.clear
+    Dog.all.clear
   end
 
   after do

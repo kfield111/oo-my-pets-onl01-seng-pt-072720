@@ -31,5 +31,8 @@ def self.reset_all
   @@all.clear
 end
 
+def cats
+  Cats.all.select {|temp| temp.owner = owner}
+
 
 end

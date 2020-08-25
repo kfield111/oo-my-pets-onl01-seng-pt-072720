@@ -66,8 +66,8 @@ def sell_pets
   owner_pets.each do |temp|
     temp.mood = "nervous"
     temp.owner = nil
-    
   end
+  owner_pets
 end
 
 

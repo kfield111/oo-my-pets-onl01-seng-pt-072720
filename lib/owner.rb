@@ -69,7 +69,7 @@ def sell_pets
     temp.mood = "nervous"
     temp.owner = nil
   end
-  Owner.reset_all
+  self.all.clear
 end
 
 

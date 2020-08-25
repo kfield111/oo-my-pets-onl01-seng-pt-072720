@@ -9,7 +9,7 @@ class Owner
 
 
   def say_species
-    species
+    @species
   end
 
 

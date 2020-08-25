@@ -69,8 +69,6 @@ def sell_pets
     temp.mood = "nervous"
     temp.owner = nil
   end
-  cats.clear
-  dogs.clear
 end
 
 

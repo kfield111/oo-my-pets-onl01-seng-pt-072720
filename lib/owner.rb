@@ -63,13 +63,13 @@ end
     end
   end
 
-# def sell_pets
-#   owner_pets = dogs + cats
-#   owner_pets.select do |temp|
-#     temp.mood = "nervous"
-#     temp.owner = nil
-#   end
-# end
+def sell_pets
+  owner_pets = dogs + cats
+  owner_pets.select do |temp|
+    temp.mood = "nervous"
+    temp.owner = nil
+  end
+end
 
 def list_pets
   number_of_dogs = dogs.length

@@ -52,6 +52,7 @@ def walk_dogs
   dogs.each do |temp|
     temp.mood = "happy"
   end
+end
 
   def feed_cats
     owner_cats = cats
@@ -60,6 +61,7 @@ def walk_dogs
     end
   end
 
+def self.sell_pets
 
 end
 

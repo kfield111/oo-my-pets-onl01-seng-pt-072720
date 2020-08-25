@@ -66,7 +66,6 @@ def sell_pets
   owner_pets.each do |temp|
     temp.mood = "nervous"
   end
-
 end
 
 
